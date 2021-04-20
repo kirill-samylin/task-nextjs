@@ -12,7 +12,7 @@ export default function MyWonderfulComponent({ props, children }) {
   });
 
   useEffect(() => {
-    console.log(sms) // output to the MyWonderfulComponent
+    console.log(sms); // output to the MyWonderfulComponent
 
     if (id && options?.params?.fields?.isDynamic) {
       setSumm(summ + 1);
